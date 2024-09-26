@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B09DCCD3-CB4E-C5A4-5A92-ADE20D672C7C" name="Restaurant">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>A67E33AC-05A4-562E-E1D3-195DD8BEB977</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_restaurant" id="2F52F3BE-2A1B-0504-76F3-7079154007E6">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>F2B6D32A-88D1-B677-A986-1EA5511C0C2F</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse_restaurant" id="7F91E163-DE4C-A136-B061-7D4DD75F0EEE">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>C2636E3D-BC39-489D-09B5-48C4315AB427</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_restaurant" id="C320B6B5-DB7D-38D7-F374-54C749EA6604">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>09D32BDD-CC77-7E78-F08F-2121765FA881</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_id_livreur" id="A69E1AAA-F56E-C909-BF85-45ED3B2F9ADC">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>0D6F703C-A4BF-7BFE-8F8B-DC073C6B2CFD</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="12F12730-D5F8-86CB-B4FB-411CA5A8D96B" name="Restaurant_PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>21F17041-0EFF-0BA5-4D60-4D6DC0349AA7</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F52F3BE-2A1B-0504-76F3-7079154007E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

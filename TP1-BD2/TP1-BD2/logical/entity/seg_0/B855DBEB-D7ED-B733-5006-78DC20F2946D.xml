@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B855DBEB-D7ED-B733-5006-78DC20F2946D" name="Client">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:21:17 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_client" id="4ACA9B89-4521-4A97-E777-042B392CA76A">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:34:26 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_client" id="4ACEFBE9-A31D-1DCD-D60D-8F989D1E3FB7">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:34:33 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse_client" id="ADC40FEC-C3AD-AE07-F3F3-9944A2C4824E">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:34:53 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="756AF425-9849-8161-FE64-D465E8672F5D" name="Client PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:34:32 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4ACA9B89-4521-4A97-E777-042B392CA76A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

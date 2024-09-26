@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8B543E46-7463-2DA9-6C3E-E1231E026E19" name="Produits">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>42275875-13C8-FDB0-36A2-43C4666807C4</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<ordsAlias>commande</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_commande" id="ED5AE46C-1853-ED50-A2CF-03389E264763">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>3EFBA702-C36F-C066-464F-DF23F8F6A575</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="quantité_commande" id="8FE01C35-5AF9-CA6B-6DD4-148F20200BF6">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>7A69AC45-F163-6D72-BA74-F670B9EF2E15</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_produit" id="416125AE-0CB1-DED8-90BF-93EC5F3C46C9">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>F678685F-B7C8-A21B-BABC-59458A53848B</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prix_unitaire" id="5E9CA638-7E87-6D5A-960E-92416E5FA882">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>A362A5FD-0385-04BB-D438-E78401EF87C0</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5017DE96-2163-3D3A-8391-BDFCB62999BA" name="Commande_PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>AFDEE353-2D3D-2F31-A4ED-26361CBDC702</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ED5AE46C-1853-ED50-A2CF-03389E264763"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A67E33AC-05A4-562E-E1D3-195DD8BEB977" name="Restaurant">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:19:49 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_restaurant" id="F2B6D32A-88D1-B677-A986-1EA5511C0C2F">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:29:51 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresse_restaurant" id="C2636E3D-BC39-489D-09B5-48C4315AB427">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:30:22 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_restaurant" id="09D32BDD-CC77-7E78-F08F-2121765FA881">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:30:35 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FK id_livreur" id="0D6F703C-A4BF-7BFE-8F8B-DC073C6B2CFD">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:30:45 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21F17041-0EFF-0BA5-4D60-4D6DC0349AA7" name="Restaurant PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:29:53 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F2B6D32A-88D1-B677-A986-1EA5511C0C2F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

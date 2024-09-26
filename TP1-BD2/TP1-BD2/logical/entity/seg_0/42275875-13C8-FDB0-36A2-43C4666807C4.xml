@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="42275875-13C8-FDB0-36A2-43C4666807C4" name="Commande">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:21:02 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_commande" id="3EFBA702-C36F-C066-464F-DF23F8F6A575">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:31:14 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantité_commande" id="7A69AC45-F163-6D72-BA74-F670B9EF2E15">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:31:21 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom_produit" id="F678685F-B7C8-A21B-BABC-59458A53848B">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:35:58 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prix_unitaire" id="A362A5FD-0385-04BB-D438-E78401EF87C0">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:36:05 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AFDEE353-2D3D-2F31-A4ED-26361CBDC702" name="Commande PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:31:20 UTC</createdTime>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<engineerTo>
+<item key="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3EFBA702-C36F-C066-464F-DF23F8F6A575</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

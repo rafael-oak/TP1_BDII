@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="42275875-13C8-FDB0-36A2-43C4666807C4" name="Commande" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AA061086-BD04-E574-23EB-1045605D87E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="4FBD3FBF-523E-5F39-3E0B-3D955946C10F" name="Livraison" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AA061086-BD04-E574-23EB-1045605D87E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="A67E33AC-05A4-562E-E1D3-195DD8BEB977" name="Restaurant" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AA061086-BD04-E574-23EB-1045605D87E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="B855DBEB-D7ED-B733-5006-78DC20F2946D" name="Client" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AA061086-BD04-E574-23EB-1045605D87E5" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="F5DCC070-8EDF-289C-14D7-0CC59B5C0620" name="Livreur" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="AA061086-BD04-E574-23EB-1045605D87E5" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

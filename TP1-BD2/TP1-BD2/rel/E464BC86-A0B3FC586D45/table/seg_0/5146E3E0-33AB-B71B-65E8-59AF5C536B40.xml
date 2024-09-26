@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5146E3E0-33AB-B71B-65E8-59AF5C536B40" name="Client">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>B855DBEB-D7ED-B733-5006-78DC20F2946D</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_client" id="0F243C4D-AFE4-2602-B3A9-DF7EFFF6C88D">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>4ACA9B89-4521-4A97-E777-042B392CA76A</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_client" id="99260DAD-33A7-B940-6B16-56D65A7CD99D">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>4ACEFBE9-A31D-1DCD-D60D-8F989D1E3FB7</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresse_client" id="808A0C4A-B899-594B-4537-4805D79DA985">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>ADC40FEC-C3AD-AE07-F3F3-9944A2C4824E</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9CD13186-82BF-4324-E9D0-C40CE74A2756" name="Client_PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>756AF425-9849-8161-FE64-D465E8672F5D</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0F243C4D-AFE4-2602-B3A9-DF7EFFF6C88D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

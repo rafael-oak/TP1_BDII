@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5361A9DC-3B9B-7626-7466-D008389C9641" name="Livreur">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>F5DCC070-8EDF-289C-14D7-0CC59B5C0620</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_livreur" id="28DDE7C0-DB25-9B38-4200-CC1C73D14E08">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>F3AEBAFD-993F-D51A-456A-674D310BD79E</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nom_livreur" id="A70995D6-C5CD-3F01-ECE3-80421616AF1A">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>B56C36B4-1729-FA51-FCE6-C71EF3707803</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FK_id_restaurant" id="DE20A5EA-EB21-F984-C913-9ECBCFD78997">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>42630736-647C-332F-E4A4-88EE452A95A8</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D71EB7AE-7C4C-2306-5085-3626EE77D424" name="Livreur_PK">
+<createdBy>2143971</createdBy>
+<createdTime>2024-09-25 21:39:25 UTC</createdTime>
+<generatorID>F3C56025-EC3F-A7D9-7ACF-A241B6EF1A66</generatorID>
+<ownerDesignName>TP1-BD2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="28DDE7C0-DB25-9B38-4200-CC1C73D14E08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

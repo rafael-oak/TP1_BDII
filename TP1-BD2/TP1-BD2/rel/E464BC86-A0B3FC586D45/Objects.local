@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="5146E3E0-33AB-B71B-65E8-59AF5C536B40" name="Client" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="5361A9DC-3B9B-7626-7466-D008389C9641" name="Livreur" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="8B543E46-7463-2DA9-6C3E-E1231E026E19" name="Produits" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="B09DCCD3-CB4E-C5A4-5A92-ADE20D672C7C" name="Restaurant" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="ECBFA72E-6D4F-4D7E-E311-86585BD36163" name="Livraison" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="E464BC86-FCD8-ACB8-8E4B-A0B3FC586D45" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
